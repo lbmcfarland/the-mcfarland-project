@@ -1,0 +1,170 @@
+body, html {
+	height: 100%;
+	margin: 0;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/*-- Logo Styles --*/
+#logoID {
+	width: 300px;
+}
+.center {
+	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
+	width: 50%;
+}
+
+/*--Navbar Styles --*/
+.navbar-default {
+		background-color: #145a32;
+		border-color: #145a32;
+		color: white;
+		background-image: none;
+		background-repeat: no-repeat;
+}
+
+/* The hero image */
+.hero-image {
+  /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+  background-image: url("/dirtpath.jpg");
+  /* Use   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("dirtpath.jpg"); if deleting the linear gradient doesn't work */
+
+  /* Set a specific height */
+  height: 100%;
+
+  /* Position and center the image to scale nicely on all screens */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+/* Place text in the middle of the image */
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+.hero-text button {
+	border: none;
+	outline: 0;
+	display: inline-block;
+	padding: 10px 25px;
+	color: white;
+	background-color: #145a32;
+	text-align: center;
+	cursor: pointer;
+}
+  
+.hero-text button:hover {
+	background-color: white;
+	color: #145a32;
+}
+
+.outline {
+	-webkit-text-stroke: 1px #145a32;
+}
+
+home {
+	margin-top: 10%;
+}
+
+.fit-image {
+	width: 100%;
+	object-fit: cover;
+	/* height: 200px; /* only if you want fixed height */
+}
+
+.h1-home {
+	text-align: center;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+}
+
+h3 {
+	margin-top:50px;
+}
+
+hr {
+	width: 100%;
+	height: 2px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color:#145a32;
+	border: 0 none;
+	margin-top: 50px;
+	margin-bottom:10px;
+}
+
+.regbtn {
+	margin-top: 30px;
+	margin-bottom: 40px;
+}
+
+.footer {
+	background: #145a32;
+	color:#FFFFFF;
+		
+	.links {
+		ul {
+			list-style-type: none;
+		}
+		li a {
+			color: #FFFFFF;
+			transition: color .2s;
+			font-size: 15px;
+		}
+		:hover {
+			text-decoration: none;
+			color:whitesmoke;
+		}
+	}
+}
+
+.about-company {
+  	font-size: 20px;
+	color: #FFFFFF;
+}
+		 
+a {
+	color:#FFFFFF;
+	transition: color .2s;
+	:hover{color:whitesmoke}
+}
+ 
+.location{
+	font-size: 15px;
+	color: white;
+}
+
+.copyright p {
+	border-top:1px solid rgba(255,255,255,.1);
+} 
+
+h1, h2, h3, h4, h5, h6 {
+	color: #145a32
+}
+
+.linkStyle {
+	color: blue;
+	text-decoration: underline blue;
+}
+
+.imgStyle {
+	border: 4px solid #145a32;
+}
+
+iframe {
+	border: 4px solid #145a32;
+	align: middle;
+	height: 385px;
+	width: 640px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
